@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'NamaRS';
+    src: url('../font/CharlesWright-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BillNumber';
+    src: url('../font/Boleon.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.NamaRS {
+    font-family: 'NamaRS';
+}
+
+.BillNumber {
+    font-family: 'BillNumber';
+}
+
+.modal-xl {
+    max-width: 98%;
+    margin: 1rem auto;
+}
+
+#modalconsent {
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border-width: 2px;
+}
+
+#modalconsent th,
+#modalconsent td {
+    padding: 5px 10px;
+
+}
+
+/* #modalconsent .form-check {
+    min-height: unset;
+    line-height: 1.5rem;
+    margin-left: 15px;
+}
+
+#modalconsent .form-check-input {
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ */
+#modalconsent p {
+    margin-bottom: 0.5rem;
+}
+
+#modalconsent #pad-ttd {
+    height: 300px;
+    width: 700px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+}
+
+.card {
+    font-size: 24px;
+}
+
+.modal-header .close,
+.modal-header .mailbox-attachment-close {
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+label.invalid {
+    color: #dc3545;
+}
+
+.form-check {
+    padding-left: 2.5rem;
+    min-height: 2.5rem;
+}
+
+.form-check-input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    margin-left: -2.5rem;
+}
+
+.datepicker td,
+.datepicker th {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.surkon-v2 .datepicker td,
+.surkon-v2 .datepicker th {
+    width: 100px;
+    height: 70px;
+    font-size: 32px;
+}
+
+.form-control {
+    font-size: 30px;
+    height: auto;
+}
+
+.swal-wide {
+    width: 75%;
+}
+
+.red-text {
+    color: #dc3545;
+}
+
+.btn-xl {
+    font-size: 30px !important;
+    padding: 10px 60px !important;
+}
+
+.star-ratings a i {
+    color: #dddddd;
+}
+
+.star-ratings a.active i {
+    color: #ffc107;
+}
+
+#dokter_img img {
+    border-radius: 50%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.datepicker-inline {
+    width: 100%;
+}
+
+.datepicker table {
+    width: 100%;
+}
+
+.datepicker td,
+.datepicker th {
+    /*   border-radius: 50px; */
+    font-size: 38px;
+}
+
+.datepicker table tr td.highlighted {
+    background-color: #f7d9d9;
+}
